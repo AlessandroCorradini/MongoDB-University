@@ -1,0 +1,11 @@
+---
+apiVersion: mongodb.com/v1beta1
+kind: MongoDbReplicaSet
+metadata:
+  name: myfirst-kube-replicaset
+  namespace: mongodb
+spec:
+  members: 3
+  mongodb_version: 3.6.4
+  project: my-k8s-project
+  credentials: opsmgr-global-admin-credentials

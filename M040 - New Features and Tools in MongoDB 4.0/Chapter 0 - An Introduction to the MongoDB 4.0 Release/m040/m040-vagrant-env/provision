@@ -1,0 +1,134 @@
+#!/usr/bin/env bash
+#
+# Bash script for provisioning the MongoDB instances
+
+# TODO - change script once 4.0 GA is out
+
+set -e
+set -x
+
+
+function ip_config(){
+  export CLIENT_IP_ADDR=`ifconfig  | grep 'inet addr:'| grep -v '127.0.0.1' | cut -d: -f2 | awk '{ print $1}' | tail -1`
+  export CLIENT_FQDN=`hostname`
+  export CLIENT_NAME=`hostname | cut -d. -f 1 | tr '[:upper:]' '[:lower:]'`
+  echo "Configuring /etc/hosts ..."
+  echo "127.0.0.1 localhost localhost.localdomain localhost4 localhost4.localdomain4" > /etc/hosts
+  echo "::1       localhost localhost.localdomain localhost6 localhost6.localdomain6" >> /etc/hosts
+  echo "$CLIENT_IP_ADDR    $CLIENT_FQDN $CLIENT_NAME" >> /etc/hosts
+}
+
+
+install_mongod()
+{
+  echo "Install MongoDB Enterprise (pre 4.0.0 version)"
+  sudo apt-get update
+  sudo apt-get install --force-yes -y mongodb-enterprise
+  echo "Done installing MongoDB Enterprise"
+}
+
+
+download_mongodb_36()
+{
+  echo "Downloading 3.6 binaries"
+  sudo mkdir -p /opt/mongodb
+  sudo chown -R vagrant:vagrant /opt/mongodb
+  curl --silent --output /tmp/mongodb-3.6.tgz https://downloads.mongodb.com/linux/mongodb-linux-x86_64-enterprise-ubuntu1404-3.6.5.tgz?jmp=university
+  tar -xzf /tmp/mongodb-3.6.tgz -C /opt/mongodb
+  rm -rf /tmp/mongodb-3.6.tgz
+}
+
+user_setup()
+{
+  sudo sh -c "killall mongod; true"
+  sudo mkdir -p /data
+  sudo chmod -R 777 /data
+  mkdir -p /data/db
+  mkdir -p /home/vagrant/data
+  chmod -R 777 /home/vagrant/data
+  chown -R vagrant:vagrant /home/vagrant/data
+  echo "Set LC_ALL=C to .profile"
+  sudo echo "export LC_ALL=C" >> /home/vagrant/.profile
+}
+
+
+update_repo()
+{
+  echo "Install MongoDB Enterprise Repository"
+  echo "deb [ arch=amd64 ] http://repo.mongodb.com/apt/ubuntu trusty/mongodb-enterprise/4.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-enterprise.list
+  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 9DA31620334BD75D9DCB49F368818C72E52529D4
+
+  echo "Update Repositories"
+  sudo apt-get update -y
+  echo "Installing MongoDB Enterprise Dependencies"
+  sudo apt-get install -y libgssapi-krb5-2 libsasl2-2 libssl1.0.0 libstdc++6 snmp gcc
+}
+
+
+config()
+{
+  sudo su
+  # disable THP
+  echo -e "never" > /sys/kernel/mm/transparent_hugepage/enabled
+  echo -e "never" > /sys/kernel/mm/transparent_hugepage/defrag
+  # disable mongod upstart service
+  echo 'manual' | sudo tee /etc/init/mongod.override
+}
+
+
+download_dataset()
+{
+  echo "Download Dataset"
+  curl -s https://s3.amazonaws.com/edu-static.mongodb.com/lessons/M040/companies.json.tgz -o companies.json.tgz
+  sudo mkdir -p /dataset
+  sudo chown vagrant:vagrant /dataset
+  tar -xzvf companies.json.tgz -C /dataset
+  rm -rf companies.json.tgz
+  echo "Done: Download Dataset"
+}
+
+
+data_path()
+{
+  sudo mkdir -p /data
+  sudo chown -R vagrant:vagrant /data
+}
+
+
+function install_python_dependencies() {
+  echo "Download get-pip.py"
+  curl -s "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+  echo "Install pip"
+  sudo python3 get-pip.py
+  rm -f get-pip.py
+  echo "Install requirements"
+  pip install docopt faker
+  pip install https://github.com/mongodb/mongo-python-driver/zipball/master
+}
+
+function install_mongosqld() {
+  echo "Download BI Connector binaries"
+  curl -s https://info-mongodb-com.s3.amazonaws.com/mongodb-bi/v2/mongodb-bi-linux-x86_64-ubuntu1404-v2.5.0.tgz -o mongodb-bi-linux-x86_64-ubuntu1404-v2.5.0.tgz
+  tar -xzvf mongodb-bi-linux-x86_64-ubuntu1404-v2.5.0.tgz
+  sudo mkdir -p /var/biconnector/
+  sudo chown vagrant:vagrant /var/biconnector/
+  cp mongodb-bi-linux-x86_64-ubuntu1404-v2.5.0/bin/mongosqld mongodb-bi-linux-x86_64-ubuntu1404-v2.5.0/bin/mongodrdl /var/biconnector/
+  rm -rf mongodb-bi-linux-x86_64-ubuntu1404-v2.5.0
+  rm mongodb-bi-linux-x86_64-ubuntu1404-v2.5.0.tgz
+  sudo chown -R vagrant:vagrant /var/biconnector
+  chmod -R +x /var/biconnector
+  sudo echo "PATH=$PATH:/var/biconnector" >> /home/vagrant/.profile
+  echo "Done: Download BI Connector binaries"
+}
+
+config
+ip_config
+update_repo
+install_mongod
+user_setup
+download_dataset
+data_path
+install_python_dependencies
+install_mongosqld
+download_mongodb_36
+echo "DONE"
