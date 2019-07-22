@@ -22,7 +22,7 @@ Data models and data access patterns that address common application use cases.
 
 ## Certificate of Completition
 
-You can see the [Certificate of Completition - TODO]() and other certificates in my [Certificates Repo](https://github.com/AlessandroCorradini/Certificates) that contains all my certificates obtained through my journey as a self-made Data Science and better developer.
+You can see the [Certificate of Completition](https://github.com/AlessandroCorradini/Certificates/blob/master/MongoDB%20University%20-%20M001%20MongoDB%20Basics.pdf) and other certificates in my [Certificates Repo](https://github.com/AlessandroCorradini/Certificates) that contains all my certificates obtained through my journey as a self-made Data Science and better developer.
 
 ### ⚠️ Disclaimer ⚠️
 
