@@ -1,0 +1,10 @@
+{
+  "_id": "<objectId>",
+  "zone": "<int>",
+  "date": "<date>",
+  "kW per day": {
+    "consumption": "<int>",
+    "self-produced": "<int>",
+    "city-supplemented": "<int>"
+  }
+}

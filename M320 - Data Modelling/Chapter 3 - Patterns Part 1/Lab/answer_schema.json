@@ -1,0 +1,13 @@
+{
+  "_id": "<objectId>",
+  "title": "<string>",
+  "artist": "<string>",
+  "room": "<string>",
+  "spot": "<string>",
+  "on_display": "<bool>",
+  "in_house": "<bool>",
+  "events": [{
+    "k": "<string>",
+    "v": "<date>"
+  }]
+}
