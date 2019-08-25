@@ -24,9 +24,9 @@ Using the MongoDB Java Driver, you will implement MFlix's basic functionality. T
 You will also add more features to the MFlix application. This includes writing analytical reports, increasing the durability of MFlix's connection with MongoDB, and implementing security best practices.
 <br/>
 
-## Certificate of Completition
+## Certificate of Completion
 
-You can see the [Certificate of Completition - TODO]() and other certificates in my [Certificates Repo](https://github.com/AlessandroCorradini/Certificates) that contains all my certificates obtained through my journey as a self-made Data Science and better developer.
+You can see the [Certificate of Completion - TODO]() and other certificates in my [Certificates Repo](https://github.com/AlessandroCorradini/Certificates) that contains all my certificates obtained through my journey as a self-made Data Science and better developer.
 
 ### ⚠️ Disclaimer ⚠️
 

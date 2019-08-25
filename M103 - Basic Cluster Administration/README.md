@@ -14,9 +14,9 @@ You'll build standalone nodes, replica sets and sharded clusters from scratch. T
 
 <br/>
 
-## Certificate of Completition
+## Certificate of Completion
 
-You can see the [Certificate of Completition - TODO]() and other certificates in my [Certificates Repo](https://github.com/AlessandroCorradini/Certificates) that contains all my certificates obtained through my journey as a self-made Data Science and better developer.
+You can see the [Certificate of Completion - TODO]() and other certificates in my [Certificates Repo](https://github.com/AlessandroCorradini/Certificates) that contains all my certificates obtained through my journey as a self-made Data Science and better developer.
 
 ### ⚠️ Disclaimer ⚠️
 
