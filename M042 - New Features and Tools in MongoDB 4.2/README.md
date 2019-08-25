@@ -25,9 +25,9 @@ Get up to speed with the latest release and start building with MongoDB 4.2. Her
 
 <br/>
 
-## Certificate of Completition
+## Certificate of Completion
 
-You can see the [Certificate of Completition - TODO]() and other certificates in my [Certificates Repo](https://github.com/AlessandroCorradini/Certificates) that contains all my certificates obtained through my journey as a self-made Data Science and better developer.
+There isn't any Certificate of Completion. You can my other certificates in my [Certificates Repo](https://github.com/AlessandroCorradini/Certificates) that contains all my certificates obtained through my journey as a self-made Data Science and better developer.
 
 ### ⚠️ Disclaimer ⚠️
 
