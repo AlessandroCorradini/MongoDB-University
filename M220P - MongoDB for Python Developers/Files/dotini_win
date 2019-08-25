@@ -1,0 +1,13 @@
+# Ticket: Connection
+# Rename this file to .ini after filling in your MFLIX_DB_URI and your SECRET_KEY
+# Do not surround the URI with quotes
+
+[PROD]
+SECRET_KEY = super_secret_key_you_should_change
+MFLIX_DB_URI = mongodb+srv://m220student:m220password@<your-atlas-cluster-address>
+MFLIX_NS = sample_mflix
+
+[TEST]
+SECRET_KEY = super_secret_testing_key
+MFLIX_DB_URI = your_testing_db_uri (can be the same as Atlas, or a local MongoDB database)
+MFLIX_NS = sample_mflix
