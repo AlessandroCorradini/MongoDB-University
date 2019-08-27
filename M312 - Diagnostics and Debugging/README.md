@@ -1,4 +1,4 @@
-# M040: New Features and Tools in MongoDB 4.2
+# M312: Diagnostics and Debugging
 
 ## What You'll Learn
 

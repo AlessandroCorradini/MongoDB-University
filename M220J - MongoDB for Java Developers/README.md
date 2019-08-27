@@ -26,7 +26,7 @@ You will also add more features to the MFlix application. This includes writing 
 
 ## Certificate of Completion
 
-You can see the [Certificate of Completion - TODO]() and other certificates in my [Certificates Repo](https://github.com/AlessandroCorradini/Certificates) that contains all my certificates obtained through my journey as a self-made Data Science and better developer.
+You can see the [Certificate of Completion](https://github.com/AlessandroCorradini/Certificates/blob/master/MongoDB%20University%20-%20M220J%20MongoDB%20for%20Java%20Developers.pdf) and other certificates in my [Certificates Repo](https://github.com/AlessandroCorradini/Certificates) that contains all my certificates obtained through my journey as a self-made Data Science and better developer.
 
 ### ⚠️ Disclaimer ⚠️
 
