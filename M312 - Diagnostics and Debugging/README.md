@@ -16,7 +16,7 @@ You'll build a good understanding about the tools you can use to diagnose the mo
 
 ## Certificate of Completion
 
-You can see the [Certificate of Completion - TODO]() and other certificates in my [Certificates Repo](https://github.com/AlessandroCorradini/Certificates) that contains all my certificates obtained through my journey as a self-made Data Science and better developer.
+You can see the [Certificate of Completion](https://github.com/AlessandroCorradini/Certificates/blob/master/MongoDB%20University%20-%20M312%20Diagnostics%20and%20Debugging.pdf) and other certificates in my [Certificates Repo](https://github.com/AlessandroCorradini/Certificates) that contains all my certificates obtained through my journey as a self-made Data Science and better developer.
 
 ### ⚠️ Disclaimer ⚠️
 
