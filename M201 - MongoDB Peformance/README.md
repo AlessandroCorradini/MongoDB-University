@@ -16,7 +16,7 @@ You'll build a good understanding about how to analyzing the different trade-off
 
 ## Certificate of Completion
 
-You can see the [Certificate of Completion - TODO]() and other certificates in my [Certificates Repo](https://github.com/AlessandroCorradini/Certificates) that contains all my certificates obtained through my journey as a self-made Data Science and better developer.
+You can see the [Certificate of Completion](https://github.com/AlessandroCorradini/Certificates/blob/master/MongoDB%20University%20-%20M201%20MongoDB%20Performance.pdf) and other certificates in my [Certificates Repo](https://github.com/AlessandroCorradini/Certificates) that contains all my certificates obtained through my journey as a self-made Data Science and better developer.
 
 ### ⚠️ Disclaimer ⚠️
 

@@ -16,7 +16,7 @@ You'll build an understanding about how to use MongoDB Aggregation Framework pip
 
 ## Certificate of Completion
 
-You can see the [Certificate of Completion - TODO]() and other certificates in my [Certificates Repo](https://github.com/AlessandroCorradini/Certificates) that contains all my certificates obtained through my journey as a self-made Data Science and better developer.
+You can see the [Certificate of Completion](https://github.com/AlessandroCorradini/Certificates/blob/master/MongoDB%20University%20-%20M121%20The%20MongoDB%20Aggregation%20Framework.pdf) and other certificates in my [Certificates Repo](https://github.com/AlessandroCorradini/Certificates) that contains all my certificates obtained through my journey as a self-made Data Science and better developer.
 
 ### ⚠️ Disclaimer ⚠️
 
