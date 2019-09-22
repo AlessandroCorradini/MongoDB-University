@@ -1,4 +1,4 @@
-# Final: Question 6
+# Final: Question 7
 
 Given the following indexes:
 
