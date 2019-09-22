@@ -4,7 +4,7 @@
 
 A new decision maker came aboard your online bookstore team. They want to be able to track which genres are most popular daily. To keep this metric up to date without running massive queries for obtaining it, which of the following schema patterns would you choose to implement?
 
-Choose the best answer:
+
 
 - The Bucket Pattern
 - The Polymorphic Pattern

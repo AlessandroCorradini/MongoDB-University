@@ -20,7 +20,7 @@ To simplify the calculations and conversions in data units, use:
 
 and round all results to 2 significant digits.
 
-Check all answers that apply:
+
 
 - The database size is 2.6 terabytes.
 - **The database size is 530 terabytes.**

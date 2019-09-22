@@ -32,7 +32,7 @@ conf = {
 
 What errors are present in the above replica set configuration?
 
-Check all answers that apply:
+
 
 - **You cannot specify two members with the same _id.**
 - **You cannot specify the same host information among multiple members.**

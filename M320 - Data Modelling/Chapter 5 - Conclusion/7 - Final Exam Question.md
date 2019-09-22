@@ -8,7 +8,7 @@ You already updated your application to be able to handle the new data organizat
 
 Which pattern solution is best suited for this situation?
 
-Choose the best answer:
+
 
 - The Attribute Pattern
 - The Extended Reference Pattern

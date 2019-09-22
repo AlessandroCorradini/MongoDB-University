@@ -8,7 +8,7 @@ Assume that none of the connection settings have been changed, and that the clie
 
 After 30 seconds, the client still cannot connect to a new primary. Which of the following errors will be thrown by the Node.js driver, and how should it be handled?
 
-Choose the best answer:
+
 
 - a Duplicate Key error, resolved by using a new _id in the write
 - a Write Concern error, resolved by reducing the durability of the write

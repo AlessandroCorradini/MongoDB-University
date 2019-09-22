@@ -164,7 +164,7 @@ Given the following output from rs.status().members:
 
 At this moment, how many replica set members are eligible to become primary in the event of the current Primary crashing or stepping down?
 
-Choose the best answer:
+
 
 - 6
 - **5**

@@ -8,7 +8,7 @@ Assume that none of the connection settings have been changed, and that the clie
 
 After 30 seconds, the client still cannot connect to a new primary. Which of the following exceptions will be raised by Pymongo?
 
-Choose the best answer:
+
 
 - DocumentTooLarge
 - DuplicateKeyError

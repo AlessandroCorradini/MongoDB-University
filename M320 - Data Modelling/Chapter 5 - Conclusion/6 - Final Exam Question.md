@@ -4,7 +4,7 @@ Consider a system that collects census data on all countries in the world.
 
 Which of the following implementations are recommended ways to model a One-to-Zillions relationship between a person entity and the country entity in which that person was born?
 
-Check all answers that apply:
+
 
 - **Referencing from the Zillions side.**
 

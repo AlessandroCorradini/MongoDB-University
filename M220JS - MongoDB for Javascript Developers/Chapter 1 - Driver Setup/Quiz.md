@@ -4,7 +4,7 @@
 
 Select the true statements below.
 
-Check all answers that apply:
+
 
 - **To use the await keyword, the enclosing function must be marked async.**
 - **If a callback isn't provided, asynchronous methods in the Node driver will return a Promise.**
@@ -15,7 +15,7 @@ Check all answers that apply:
 
 Which of the following statements is true regarding reads in MongoDB?
 
-Check all answers that apply:
+
 
 - **Field projection is specified as a JSON object.**
 - The MongoDB Javascript driver can only find one document per query.

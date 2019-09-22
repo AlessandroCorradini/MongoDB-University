@@ -6,7 +6,7 @@ You work as a developer at a factory. Your factory wants to track the usage stat
 
 Which pattern solution is best suited for this situation?
 
-Choose the best answer:
+
 
 - The Computed Pattern
 - The Polymorphic Pattern

@@ -4,7 +4,7 @@
 
 Which of the following are true about binary replication and statement-based replication?
 
-Check all answers that apply:
+
 
 Binary replication is more accurate than statement-based replication.
 MongoDB uses statement-based replication, not binary replication.
@@ -14,7 +14,7 @@ Statement-based replication is platform independent.
 
 Which of the following are true for replica sets in MongoDB?
 
-Check all answers that apply:
+
 
 We should always use arbiters.
 Replica sets provide high availability.
@@ -25,7 +25,7 @@ Replica set members have a fixed role assigned.
 
 Which of the following is/are true about setting up a replica set?
 
-Check all answers that apply:
+
 
 - rs.initiate() must be run on every node in the replica set.
 - **Enabling internal authentication in a replica set implicitly enables client authentication.**
@@ -36,7 +36,7 @@ Check all answers that apply:
 
 Which of the following fields are included in the replica set configuration document?
 
-Check all answers that apply:
+
 
 - **version**
 - **_id**
@@ -46,7 +46,7 @@ Check all answers that apply:
 
 What information can be obtained from running rs.printReplicationInfo()?
 
-Check all answers that apply:
+
 
 - **The time of the latest entry in the oplog.**
 - The last statement entered in the oplog.
@@ -58,7 +58,7 @@ Check all answers that apply:
 
 Which of the following is true?
 
-Check all answers that apply:
+
 
 - You cannot write to the local database.
 - The local database does not allow the creation of other collections.
@@ -70,7 +70,7 @@ Check all answers that apply:
 
 What is true about hidden nodes?
 
-Check all answers that apply:
+
 
 - **Hidden nodes vote in elections.**
 - Hidden nodes are a type of arbiter.
@@ -82,7 +82,7 @@ Check all answers that apply:
 
 Which of the following is true about reading and writing from secondaries?
 
-Check all answers that apply:
+
 
 - **We have to run rs.slaveOk() before we can read from secondary nodes.**
 - Running rs.slaveOk() allows us to read and write from secondaries.
@@ -92,7 +92,7 @@ Check all answers that apply:
 
 Which of the following is true about elections?
 
-Check all answers that apply:
+
 
 - All nodes have an equal chance to become primary.
 - **Nodes with priority 0 cannot be elected primary.**
@@ -103,7 +103,7 @@ Check all answers that apply:
 
 Consider a 3-member replica set, where one secondary is offline. Which of the following write concern levels can still return successfully?
 
-Check all answers that apply:
+
 
 - online
 - **majority**
@@ -114,7 +114,7 @@ Check all answers that apply:
 
 Which of the following read concerns only return data from write operations that have been committed to a majority of nodes?
 
-Check all answers that apply:
+
 
 - **linearizable**
 - local
@@ -125,7 +125,7 @@ Check all answers that apply:
 
 Which of the following read preference options may result in stale data?
 
-Check all answers that apply:
+
 
 - **primaryPreferred**
 - **secondaryPreferred**

@@ -39,9 +39,8 @@ Should be updated to look like this:
 
 Which of the following update statements will correctly perform this update?
 
-Attempts Remaining:Correct Answer
 
-Choose the best answer:
+
 
  - 
     ```

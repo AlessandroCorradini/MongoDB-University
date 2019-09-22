@@ -4,7 +4,7 @@
 
 When specifying the --fork argument to mongod, what must also be specified?
 
-Check all answers that apply:
+
 
 - --logdestination
 - --logfile
@@ -15,7 +15,7 @@ Check all answers that apply:
 
 Sharded clusters are composed of:
 
-Check all answers that apply:
+
 
 - Load Balancer
 - **Mongos**
@@ -26,7 +26,7 @@ Check all answers that apply:
 
 Which of the following is true about indexes?
 
-Check all answers that apply:
+
 
 - **Indexes take up space in memory.**
 - By default, MongoDB doesn't create any indexes.
@@ -43,7 +43,7 @@ mongod --dbpath /data/db --logpath /data/logs --replSet M103 --bind_ip '127.0.0.
 
 Which of the following represents a configuration file equivalent to the command line options?
 
-Check all answers that apply:
+
 
 - 
     ```
@@ -90,7 +90,7 @@ Check all answers that apply:
 
 Which of the following files in the MongoDB data directory can you access to view collection data?
 
-Check all answers that apply:
+
 
 - The collection.wt file
 - The storage.bson file
@@ -101,7 +101,7 @@ Check all answers that apply:
 
 Which of the following methods executes a database command?
 
-Check all answers that apply:
+
 
 - db.runThisCommand( { <COMMAND> } )
 - **db.runCommand( { <COMMAND> } )**
@@ -125,7 +125,7 @@ db.runCommand(
 )
 ```
 
-Check all answers that apply:
+
 
 - UPDATE
 - **WRITE**
@@ -136,7 +136,7 @@ Check all answers that apply:
 
 What events are captured by the profiler?
 
-Check all answers that apply:
+
 
 - **Administrative commands**
 - **Cluster configuration operations**
@@ -148,7 +148,7 @@ Check all answers that apply:
 
 When should you deploy a MongoDB deployment with security enabled?
 
-Check all answers that apply:
+
 
 - **When deploying an evaluation environment**
 - **When deploying your production environment**
@@ -159,7 +159,7 @@ Check all answers that apply:
 
 Which of the following are Built-in Roles in MongoDB?
 
-Check all answers that apply:
+
 
 - dbAdminAllDatabases
 - **read**
@@ -171,7 +171,7 @@ Check all answers that apply:
 
 Which of the following are true differences between mongoexport and mongodump?
 
-Check all answers that apply:
+
 
 - **Mongodump outputs BSON, but mongoexport outputs JSON.**
 - **Mongodump can create a data file and a metadata file, but mongoexport just creates a data file.**

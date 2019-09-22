@@ -3,9 +3,8 @@
 ## Cursor Methods and Aggregation Equivalents
 
 Which of the following aggregation stages have equivalent cursor methods?
-Attempts Remaining:Correct Answer
 
-Check all answers that apply:
+
 
 - **$skip**
 - $out
@@ -17,7 +16,7 @@ Check all answers that apply:
 
 Which of the following is true about InsertOneResult?
 
-Check all answers that apply:
+
 
 - It is a cursor.
 - **It contains the _id of an inserted document.**
@@ -28,7 +27,7 @@ Check all answers that apply:
 
 Which of the following Write Concerns are valid in a 3-node replica set?
 
-Check all answers that apply:
+
 
 - **w: 0**
 - **w: 1**
@@ -40,7 +39,7 @@ Check all answers that apply:
 
 Which of the following are valid update operators in Pymongo?
 
-Check all answers that apply:
+
 
 - **$push**
 - $remove
@@ -52,7 +51,7 @@ Check all answers that apply:
 
 Why did we use a let expression with expressive $lookup, when joining the comments and the movies collection?
 
-Choose the best answer:
+
 
 - To store the output of the pipeline in the movie_comments field.
 - **To use fields from the movies documents in the pipeline.**
@@ -63,7 +62,7 @@ Choose the best answer:
 
 Which of the following is true about deleting documents in Pymongo?
 
-Check all answers that apply:
+
 
 - **delete_many() can delete any number of documents.**
 - Pymongo can only delete one document at a time.

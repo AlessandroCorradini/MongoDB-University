@@ -11,7 +11,7 @@ Assume a collection called people_heights with documents that look like this:
 
 Which of the following queries will find only the 4th- and 5th-tallest people in the people_heights collection represented by the coll object?
 
-Choose the best answer:
+
 
 - oll.find().sort(orderBy(descending("height"))).skip(5).limit(3)
 - **coll.find().sort(orderBy(descending("height"))).skip(3).limit(2)**

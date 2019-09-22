@@ -10,7 +10,7 @@ When the write has been applied by the nodes marked in stripes, it returns an ac
 
 What Write Concern was used in this operation?
 
-Choose the best answer:
+
 
 - w: available
 - w: 0

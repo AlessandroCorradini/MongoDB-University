@@ -8,7 +8,7 @@ Assume that none of the connection settings have been changed, and that the clie
 
 If after 30 seconds, the client still cannot connect to a new primary; which of the following exceptions will be raised by the Java Driver?
 
-Choose the best answer:
+
 
 - com.mongodb.MongoServerException
 - com.mongodb.MongoConfigurationException

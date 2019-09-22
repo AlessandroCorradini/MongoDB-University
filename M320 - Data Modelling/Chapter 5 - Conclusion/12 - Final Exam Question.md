@@ -8,7 +8,7 @@ Keeping track of production, sales, and purchases requires a lot of data manipul
 
 Which pattern solution is best suited for solving this issue?
 
-Choose the best answer:
+
 
 - The Bucket Pattern
 - The Extended Reference Pattern

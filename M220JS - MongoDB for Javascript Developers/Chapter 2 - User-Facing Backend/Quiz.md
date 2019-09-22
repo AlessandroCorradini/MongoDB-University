@@ -4,7 +4,7 @@
 
 Which of the following aggregation stages have equivalent cursor methods?
 
-Check all answers that apply:
+
 
 - **$sort**
 - **$limit**
@@ -14,7 +14,7 @@ Check all answers that apply:
 
 Which of the following are valid methods to insert a new document into a collection using the Node.js driver?
 
-Check all answers that apply:
+
 
 - writeDocument
 - **insertOne**
@@ -25,7 +25,7 @@ Check all answers that apply:
 
 Which of the following Write Concerns are valid in a 3-node replica set?
 
-Check all answers that apply:
+
 
 - **w: 0**
 - **w: 1**
@@ -37,7 +37,7 @@ Check all answers that apply:
 
 Which of the following can be passed to the updateOne() and updateMany() commands?
 
-Check all answers that apply:
+
 
 - **An update operation**
 - A read preference
@@ -49,7 +49,7 @@ Check all answers that apply:
 
 Why did we use a let expression with expressive $lookup, when joining the comments and the movies collection?
 
-Choose the best answer:
+
 
 - To store the output of the pipeline in the movie_comments field.
 - **To use fields from the movies documents in the pipeline.**
@@ -60,7 +60,7 @@ Choose the best answer:
 
 Which of the following is true regarding deletes in the Node.js driver?
 
-Check all answers that apply:
+
 
 - deleteAll deletes all matching documents in a collection.
 - **deleteOne deletes the first matching document in $natural order.**

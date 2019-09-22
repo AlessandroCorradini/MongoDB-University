@@ -4,7 +4,7 @@
 
 You would use an Analytics Node for an operation that:
 
-Check all answers that apply:
+
 
 - **has a larger and less frequent workload than your operational workload.**
 - is run by an administrator.
@@ -14,7 +14,7 @@ Check all answers that apply:
 
 Once you've created an Atlas cluster, you can load the Atlas Sample Dataset by:
 
-Choose the best answer:
+
 
 - running mongorestore.
 - upgrading to an M10 cluster.
@@ -26,7 +26,7 @@ Choose the best answer:
 
 Which of the following Cloud Providers offer incremental backups?
 
-Check all answers that apply:
+
 
 - **AWS**
 - Azure

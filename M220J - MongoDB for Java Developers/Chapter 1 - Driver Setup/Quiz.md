@@ -8,7 +8,7 @@ mongodb+srv://brigitte:bardot@xyz-1234.srv.net/admin
 
 which of the following statements is true ?
 
-Choose the best answer:
+
 
 - There are 1234 nodes in the xyz Replica Set
 - **The password used to authenticate is bardot**
@@ -19,7 +19,7 @@ Choose the best answer:
 
 Which of the following class names are part of the basic MongoDB Java driver objects ?
 
-Check all answers that apply:
+
 
 - **MongoCollection**
 - **Document**
@@ -30,7 +30,7 @@ Check all answers that apply:
 
 What utility does the MongoClients class provide?
 
-Choose the best answer:
+
 
 - **A builder method to generate a MongoClient instance.**
 - An automatic factory of configuration settings to connect to our server.
@@ -42,7 +42,7 @@ Use Compass to find which film title in the movies collection is 31st result doc
 
 To complete this task check out the $skip option for your pipeline.
 
-Choose the best answer:
+
 
 - "Bad Karma"
 - "Autobus"
@@ -53,7 +53,7 @@ Choose the best answer:
 
 Select the true statements below
 
-Check all answers that apply:
+
 
 - Filters and Projections are the only available Builders classes.
 - **You can combine Filters to compose robust queries.**
@@ -64,7 +64,7 @@ Check all answers that apply:
 
 Which of the following statements is true regarding reads in MongoDB?
 
-Check all answers that apply:
+
 
 - **Field projection is specified as a JSON object.**
 - The MongoDB Javascript driver can only find one document per query.
@@ -74,7 +74,7 @@ Check all answers that apply:
 
 Imagine you have a date field in the Document that contains a Date data type in it and a Java Object where the date property is a String type. How would you read this Document into the Java Object while gaining the ability to also write to the Document form the Java Object.
 
-Check all answers that apply:
+
 
 - Using a POJO in conjunction with a Default Codec
 - **Using a POJO in conjunction with a Custom Codec**

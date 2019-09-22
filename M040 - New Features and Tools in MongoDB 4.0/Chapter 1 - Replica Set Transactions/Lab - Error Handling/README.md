@@ -99,8 +99,6 @@ If you do edit the script and get error handling working correctly, the script s
 
 To complete this lab, identify the appropriate error handling code sample(s) that will enable the scripts to execute correctly.
 
-Check all answers that apply:
-
  - **Code Block A**
 
 in handle_commit(s)

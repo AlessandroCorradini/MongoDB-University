@@ -17,7 +17,7 @@ WriteConcern writeConcern = settings.getWriteConcern();
 
 Which of the following variables contained the associated value?
 
-Check all answers that apply:
+
 
 - readPreference.toString() = "primary"
 - **writeConcern.asDocument().toString() = "{ w : 1 }"**

@@ -17,7 +17,7 @@ total_electoral_votes represents the total number of electoral votes that year, 
 
 Which of the following queries will retrieve all the Republican winners with at least 160 electoral votes?
 
-Choose the best answer:
+
 
  - 
     ```

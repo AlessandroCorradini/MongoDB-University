@@ -39,7 +39,7 @@ conf = {
 
 What is the most likely role served by the node with "_id": 3?
 
-Choose the best answer:
+
 
 - **It serves as a "hot" backup of data in case of accidental data loss on the other members, like a DBA accidentally dropping the database.**
 - It serves to service reads and writes for people in the same geographic region as the host machine.

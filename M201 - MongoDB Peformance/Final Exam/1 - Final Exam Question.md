@@ -2,7 +2,7 @@
 
 Which of these statements is/are true?
 
-Check all answers that apply:
+
 
 - You can index multiple array fields in a single document with a single compound index.
 - Write concern has no impact on write latency.

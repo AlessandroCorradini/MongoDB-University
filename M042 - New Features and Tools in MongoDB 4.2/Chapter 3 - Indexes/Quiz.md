@@ -4,8 +4,6 @@
 
 How many types of index builds exist in MongoDB 4.2?
 
-Choose the best answer:
-
 - 0: there are no indexes in MongoDB 4.2.
 - **1: a hybrid index build.**
 - 2: a foreground and background index build.
@@ -16,8 +14,6 @@ Choose the best answer:
 
 Using the wildcardProjection flag with Wildcard Indexes, we can:
 
-Check all answers that apply:
-
 - **include a set of fields in the Wildcard Index.**
 - specify a set of fields in the Wildcard Index to project with $project.
 - **exclude a set of fields from the Wildcard Index.**
@@ -25,8 +21,6 @@ Check all answers that apply:
 ## Wildcard Index Use Cases
 
 Which of the following are good reasons to use a Wildcard Index?
-
-Check all answers that apply:
 
 - **The query pattern on documents of a collection is unpredictable.**
 - A collection has documents with many different fields.

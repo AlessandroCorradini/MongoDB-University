@@ -18,9 +18,8 @@ Assume the employees collection is empty, and that there were no network errors 
 
 Which of the insert operations in requests will succeed?
 
-Attempts Remaining:Correct Answer
 
-Check all answers that apply:
+
 
 - **Insert #1**
 - **Insert #2**

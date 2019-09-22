@@ -18,7 +18,7 @@ processManagement:
 
 How many directories must MongoDB have access to? Disregard the path to the configuration file itself.
 
-Choose the best answer:
+
 
 - **3**
 - 4

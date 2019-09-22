@@ -6,7 +6,7 @@ With the digitization of every area of our lives, the famous NYC bodegas (conven
 
 Which pattern solution is best suited for this application?
 
-Choose the best answer:
+
 
 - The Bucket Pattern
 - The Extended Reference Pattern

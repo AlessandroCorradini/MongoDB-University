@@ -6,8 +6,6 @@
 
 Which of the following is/are new features in Compass?
 
-Check all answers that apply:
-
 - **Aggregation Pipeline Builder.**
 - **Read-Only Compass Edition.**
 - **Export Queries into Programming Language Code.**
@@ -19,8 +17,6 @@ Check all answers that apply:
 **Problem:**
 
 What are some features and advantages of using the Aggregation Pipeline Builder versus writing the pipeline with the Mongo Shell?
-
-Check all answers that apply:
 
 - Compass can translate the aggregation pipeline to the SQL equivalent.
 - **Compass gives you a list of available stage names in a dropdown menu.**

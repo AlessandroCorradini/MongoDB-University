@@ -39,7 +39,7 @@ try {
 
 Which of the insert operations in requests will succeed?
 
-Check all answers that apply:
+
 
 - **Insert of doc1**
 - **Insert of doc2**

@@ -6,8 +6,6 @@
 
 Which of the following statements are true about MongoDB Replica Set Transactions?
 
-Choose the best answer:
-
 - With transactions in MongoDB, schema design is no longer relevant.
 - **Transactions work across Replica Set clusters.**
 - Transactions only work with standalone mongod instances.
@@ -18,8 +16,6 @@ Choose the best answer:
 **Problem:**
 
 Which of the following are true in the case of multi-document transaction operations?
-
-Check all answers that apply:
 
 - **WiredTiger can proactively evict snapshots and abort transactions if cache pressure thresholds are reached.**
 - **If a transaction takes more than 60 seconds to complete, it will abort.**
@@ -32,8 +28,6 @@ Check all answers that apply:
 
 Which of the following statements are correct?
 
-Choose the best answer:
-
 - **Reads can still occur while a write lock is taken.**
 - All writes not in a transaction context will be applied before the transaction write lock are released.
 - All writes not in a transaction context will fail while a transaction is taking place.
@@ -44,8 +38,6 @@ Choose the best answer:
 **Problem:**
 
 What can cause TransientTransactionError to occur?
-
-Check all answers that apply:
 
 - **Network failures**
 - **WriteConflict errors**

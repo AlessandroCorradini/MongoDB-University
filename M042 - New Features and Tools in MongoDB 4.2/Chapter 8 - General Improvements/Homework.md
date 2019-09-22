@@ -4,7 +4,7 @@
 
 Which of the following is a valid update that uses an aggregation pipeline?
 
-Choose the best answer:
+
 
 - [X]
     ```

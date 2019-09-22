@@ -4,7 +4,7 @@
 
 In MongoDB, the new traffic recorder:
 
-Choose the best answer:
+
 
 - captures traffic between the client and the server.
 - writes traffic to the mongod log.
@@ -16,7 +16,7 @@ Choose the best answer:
 
 When using an aggregation pipeline within an update() operation, which of the following aggregation stages can we use?
 
-Check all answers that apply:
+
 
 - **$addFields**
 - **$unset**
@@ -26,7 +26,7 @@ Check all answers that apply:
 
 When performing an update() operation with an aggregation pipeline, the default value of the $$ROOT variable represents:
 
-Choose the best answer:
+
 
 - the field "root" inside the document currently being processed.
 - all documents containing the "root" field.
@@ -38,7 +38,7 @@ Choose the best answer:
 
 Compared to snappy and zlib, the compression algorithm zstd:
 
-Check all answers that apply:
+
 
 - **has a better compression ratio.**
 - has a faster compressing speed.

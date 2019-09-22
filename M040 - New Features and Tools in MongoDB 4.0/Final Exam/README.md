@@ -27,8 +27,6 @@ Consider the following set of operations executing in the mongo shell:
 
 Which of the following is/are true?
 
-Check all answers that apply:
-
  - The output of line 18 is
    {
      _id: 1,
@@ -51,8 +49,6 @@ Check all answers that apply:
 ### Problem:
 
 Which of the following are new capabilities added in MongoDB 4.0 for sharded cluster administration ?
-
-Check all answers that apply:
 
  - Getting faster acknowledgements for writes with concern majority
  - Getting faster chunk migrations
@@ -103,8 +99,6 @@ Which of the following is/are true?
 
 Pay attention to the format string in the $addFields stage
 
-Check all answers that apply:
-
  - **The day in the date field is 1st of December.**
  - The aggregation command fails with an "Unknown format field error".
  - The aggregation command fails due to an out-of-bound date.
@@ -117,8 +111,6 @@ Check all answers that apply:
 
 Which of the following statements is/are true regarding features recently added to Atlas?
 
-Check all answers that apply:
-
  - **Using the Atlas BI connector frees you from maintaining the process locally.**
  - Only AWS supports sharded clusters.
  - You must use the live migrator tool to migrate out of the free tier.
@@ -130,8 +122,6 @@ Check all answers that apply:
 ### Problem:
 
 Which of the following statements is/are true regarding upgrades to MongoDB 4.0 or downgrades from 4.0?
-
-Check all answers that apply:
 
  - You can upgrade directly from MongoDB 3.4 to MongoDB 4.0
  - The flag previousVersionCompatibility controls the ability to use the new 4.0 features

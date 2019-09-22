@@ -4,7 +4,7 @@
 
 What are the new ways to reference the certificateKeyFilePassword in a MongoDB configuration file?
 
-Check all answers that apply:
+
 
 - **Environmental variable**
 - String
@@ -14,7 +14,7 @@ Check all answers that apply:
 
 Which of the following are good use cases for Field Level Encryption?
 
-Check all answers that apply:
+
 
 - **An organization needs to comply with regulations such as GDPR.**
 - Database clients need the server to be highly available.

@@ -4,7 +4,7 @@
 
 In MongoDB 4.2, the $merge Aggregation stage:
 
-Check all answers that apply:
+
 
 - **can output to a collection in the same or different database.**
 - **can merge documents from an Aggregation and a target collection.**
@@ -16,7 +16,7 @@ Consider an Aggregation Pipeline using the new $merge stage that outputs to the 
 
 If we are not expecting to find any matching documents in the employee_data collection, which of the following stages should we use?
 
-Choose the best answer:
+
 
 - 
     ```

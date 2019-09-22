@@ -4,7 +4,7 @@
 
 Which of the following scenarios drives us to shard our cluster?
 
-Check all answers that apply:
+
 
 - When we start a new project with MongoDB.
 - When our server disks are full.
@@ -16,7 +16,7 @@ Check all answers that apply:
 
 What is true about the primary shard in a cluster?
 
-Check all answers that apply:
+
 
 - **Non-sharded collections are placed on the primary shard.**
 - The primary shard always has more data than the other shards.
@@ -28,7 +28,7 @@ Check all answers that apply:
 
 What is true about the mongos?
 
-Check all answers that apply:
+
 
 - **The mongos configuration file doesn't need to have a dbpath.**
 - Users must be created on mongos when auth is enabled.
@@ -40,7 +40,7 @@ Check all answers that apply:
 
 When should you manually write data to the Config DB?
 
-Check all answers that apply:
+
 
 - When sharding a collection
 - When removing a shard
@@ -52,7 +52,7 @@ Check all answers that apply:
 
 True or False: Shard keys are mutable.
 
-Choose the best answer:
+
 
 - **False**
 - True
@@ -61,7 +61,7 @@ Choose the best answer:
 
 Which of the following are indicators that a field or fields are a good shard key choice?
 
-Check all answers that apply:
+
 
 - **High Cardinality**
 - **Low Frequency**
@@ -73,7 +73,7 @@ Check all answers that apply:
 
 Which of the following functions does Hashed Sharding support?
 
-Check all answers that apply:
+
 
 - Fast sorts on the shard key
 - **Even distribution of a monotonically changing shard key field**
@@ -84,7 +84,7 @@ Check all answers that apply:
 
 What is true about chunks?
 
-Check all answers that apply:
+
 
 - **Increasing the maximum chunk size can help eliminate jumbo chunks.**
 - Documents in the same chunk may live on different shards.
@@ -96,7 +96,7 @@ Check all answers that apply:
 
 Given a sharded cluster running MongoDB 3.6, which of the shard components is responsible for running the Balancer process?
 
-Check all answers that apply:
+
 
 - Primary of each Shard Replica Set
 - **Primary node of the Config Server Replica Set**
@@ -107,7 +107,7 @@ Check all answers that apply:
 
 For a find() operation, which cluster component is responsible for merging the query results?
 
-Check all answers that apply:
+
 
 - A randomly chosen shard in the cluster
 - The primary member of each shard
@@ -123,7 +123,7 @@ Given the following shard key, which of the following queries results in a targe
 { "sku" : 1, "name" : 1 }
 ```
 
-Check all answers that apply:
+
 
 - db.products.find( { "name" : "MongoHacker" } )
 - **db.products.find( { "sku" : 1337 } )**

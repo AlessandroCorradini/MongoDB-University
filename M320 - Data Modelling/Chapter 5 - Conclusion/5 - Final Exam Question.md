@@ -1,9 +1,8 @@
 # Final Exam: Question 5
 
 Which of the following are recommended ways to model a Many-to-Many relationship between airlines and the cities those airlines fly between?
-Attempts Remaining:Correct Answer
 
-Check all answers that apply:
+
 
 - **Embedding the airlines that fly to/from a city in each of the corresponding cities document and keeping a separate copy of the airlines documents.**
 

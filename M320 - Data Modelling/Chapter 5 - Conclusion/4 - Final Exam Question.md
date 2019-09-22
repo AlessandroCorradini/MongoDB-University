@@ -6,7 +6,7 @@ The site will likely have many European customers. For all these users, the GDPR
 
 Which one of the following implementations would be the preferred way to represent the One-to-Many relationship between restaurants and each user's last-visited restaurant to enable easy removal of a user's activity in accordance with GDPR?
 
-Choose the best answer:
+
 
 - A restaurants collection with references to users documents.
 

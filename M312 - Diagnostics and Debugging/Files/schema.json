@@ -1,0 +1,4 @@
+{
+    "age": "$number",
+    "name": {"$string": {"length": 100}}
+}

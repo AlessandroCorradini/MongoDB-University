@@ -12,8 +12,6 @@ db.authors.createIndex(
 Which of the following queries will utilize this index, assuming it is the only existing index on the collection?
 
 
-Check all answers that apply:
-
 - [X]
     ```
     db.authors.find(

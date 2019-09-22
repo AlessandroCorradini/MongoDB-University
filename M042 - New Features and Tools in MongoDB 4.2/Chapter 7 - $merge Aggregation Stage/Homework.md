@@ -10,7 +10,7 @@ updates existing analytics documents to include any modified information from th
 creates a new analytics document if an existing document with the resulting document's name does not exist.
 Which of the following $merge stages will perform all of the above functionality?
 
-Choose the best answer:
+
 
 - 
     ```

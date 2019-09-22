@@ -4,7 +4,7 @@
 
 Which of the following classes can be used to compose aggregation pipeline stages and expressions ?
 
-Check all answers that apply:
+
 
 - **com.mongodb.client.model.Aggregates**
 - **com.mongodb.client.model.Accumulators**
@@ -14,7 +14,7 @@ Check all answers that apply:
 
 What is true about the Document Object inserted into a collection using the insertOne method?
 
-Check all answers that apply:
+
 
 - **It contains the _id of an inserted document even if the Document did not have an _id value prior to insertion.**
 - It can tell us whether the operation was acknowledged by the server.
@@ -24,7 +24,7 @@ Check all answers that apply:
 
 Which of the following Write Concerns are valid in a 3-node replica set?
 
-Check all answers that apply:
+
 
 - **w: 0**
 - **w: 1**
@@ -36,7 +36,7 @@ Check all answers that apply:
 
 When changing a field value in a single document it is best to use
 
-Choose the best answer:
+
 
 - replaceOne
 - **updateOne**
@@ -47,7 +47,7 @@ Choose the best answer:
 
 Why did we use a let expression with expressive $lookup, when joining the comments and the movies collection?
 
-Choose the best answer:
+
 
 - To store the output of the pipeline in the movie_comments field.
 - **To use fields from the movies documents in the pipeline.**
@@ -58,7 +58,7 @@ Choose the best answer:
 
 Which of the following is true about deleting documents using the MongoDB Java Driver?
 
-Check all answers that apply:
+
 
 - **deleteMany can delete any number of documents.**
 - MongoDB Java Driver can only delete one document at a time.

@@ -22,7 +22,7 @@ const clientOptions = testClient.s.options
 
 The variable representing our client, testClient, will:
 
-Check all answers that apply:
+
 
 - **automatically retry writes that fail.**
 - allow a maximum of 50 connections in the connection pool.

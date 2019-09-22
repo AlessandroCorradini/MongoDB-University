@@ -4,8 +4,6 @@
 
 Using the new Atlas Data Lake, how can you query the static data in your S3 Bucket?
 
-Choose the best answer:
-
 - Structured Query Language (SQL)
 - Java
 - **MongoDB Query Language (MQL)**
@@ -15,8 +13,6 @@ Choose the best answer:
 ## Use Atlas Data Lake
 
 Which Atlas Database user role is required for the database user to run the storageSetConfig command?
-
-Choose the best answer:
 
 - **atlasAdmin**
 - readWriteAdminDatabase
@@ -28,8 +24,6 @@ Choose the best answer:
 
 The Kafka connector allows you to configure MongoDB as which of the following?
 
-Choose the best answer:
-
 - A broker
 - A topic
 - **A sink**
@@ -40,8 +34,6 @@ Choose the best answer:
 
 Charts has introduced which of the following new Geospatial Chart types for MongoDB 4.2?
 
-Choose the best answer:
-
 - Scatter Plot
 - Grid
 - **Heat Map**
@@ -51,8 +43,6 @@ Choose the best answer:
 ## Charts Embedding
 
 You can embed your chart using which of the following?
-
-Check all answers that apply:
 
 - **iframe**
 - anchor tag

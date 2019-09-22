@@ -6,7 +6,7 @@ Given the following Collection Entity Diagram.
 
 Which of the following pairs of data have a One-to-One relationship between them?
 
-Check all answers that apply:
+
 
 - store_details.manager.employee_id and store_details.staff.employee_id
 - store_details.name and store_details.staff.name

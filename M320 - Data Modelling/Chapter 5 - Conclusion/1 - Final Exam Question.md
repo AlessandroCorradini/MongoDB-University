@@ -33,7 +33,7 @@ Consider the following information about the operations on a system:
 
 Which of the following operations is the one that should be considered most prominently when designing our schema?
 
-Choose the best answer:
+
 
 - W2 - application records time and user info when an item is viewed.
 - W3 - user adds item to cart.

@@ -8,7 +8,7 @@ We know that reducing the total number of queries we perform on the system would
 
 Which pattern solution is best suited for this situation?
 
-Choose the best answer:
+
 
 - The Bucket Pattern
 - The Polymorphic Pattern

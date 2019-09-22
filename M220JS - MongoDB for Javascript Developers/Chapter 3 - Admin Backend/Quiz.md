@@ -4,7 +4,7 @@
 
 Which of the following Read Concerns are valid in a 3-node replica set?
 
-Check all answers that apply:
+
 
 - **"local"**
 - 1
@@ -16,7 +16,7 @@ Check all answers that apply:
 
 Which of the following is true about bulk writes?
 
-Check all answers that apply:
+
 
 - If a failure occurs during an ordered bulk write, the server will continue executing the rest of the batch.
 - **Bulk writes decrease the effect of latency on overall operation time.**

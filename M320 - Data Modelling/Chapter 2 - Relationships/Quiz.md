@@ -3,9 +3,6 @@
 ## Relationship Types and Cardinality
 
 Why did we introduce the one-to-zillions relationship in our modeling notation?
-Attempts Remaining:Correct Answer
-
-Check all answers that apply:
 
 - **To highlight the fact that huge cardinalities may impact design choices.**
 - To address the fact that a crow's foot has 5 fingers, not 3.
@@ -16,8 +13,6 @@ Check all answers that apply:
 Consider a one-to-many relationship observed between a county and the cities in that county.
 
 Which of the following are valid ways to represent this one-to-many relationship with the document model in MongoDB?
-
-Check all answers that apply:
 
 - **Embed the entities for the cities as an array of sub-documents in the corresponding county document.**
 - Embed all the fields for a city as a subdocument in the corresponding county document.
@@ -31,8 +26,6 @@ Consider a many-to-many relationship observed between movies and the actors star
 
 Which of the following are true about modeling this many-to-many relationship with the document model in MongoDB?
 
-Check all answers that apply:
-
 - **Embedding actors in movies creates duplication of actor information.**
 - When using one collection for movies and one collection for actors, all movie documents must have an array of references to the actors in that movie, and all actor documents must have an array of references to the movies they appear in.
 - **Embedding actors in movies still requires a separate collection to store all actors.**
@@ -40,9 +33,6 @@ Check all answers that apply:
 ## One-to-One Relationship
 
 Which of the following are valid ways to represent a one-to-one relationship with the document model in MongoDB?
-Attempts Remaining:Correct Answer
-
-Check all answers that apply:
 
 - **Embed the fields in the document.**
 - **Link to a single document in another collection.**
@@ -51,9 +41,6 @@ Check all answers that apply:
 ## One-to-Zillions Relationship
 
 Which of the following statements are true about one-to-zillions relationships?
-Attempts Remaining:Correct Answer
-
-Check all answers that apply:
 
 - **The relationship representations that embed documents are not recommended.**
 - **It is a special case of the one-to-many relationship.**

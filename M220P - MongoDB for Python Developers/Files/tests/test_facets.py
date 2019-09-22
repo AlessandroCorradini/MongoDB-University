@@ -18,11 +18,7 @@ def test_faceted_search_should_return_rating_and_runtime_buckets(client):
     assert len(result[0]['rating']) == 5
     assert len(result[0]['runtime']) == 4
     # expecting the second entry in the returned tuple to be the number of results
-    assert result[1] == 37
-
-
-
-@pytest.mark.facets
+    assert result[1] == 37@pytest.mark.facets
 def test_faceted_search_should_also_support_paging(client):
     filter = {'cast': ['Susan Sarandon'], }
     result = get_movies_faceted(filter, 1, 20)

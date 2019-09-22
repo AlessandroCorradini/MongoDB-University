@@ -4,7 +4,7 @@
 
 Which of the following are benefits of connection pooling?
 
-Check all answers that apply:
+
 
 - The connection pool will persist after the client is terminated.
 - **New operations can be serviced with pre-existing connections, so a new connection doesn't have to be created each time.**
@@ -15,7 +15,7 @@ Check all answers that apply:
 
 When should you set a wtimeout?
 
-Check all answers that apply:
+
 
 - When our application is using a connection pool of 100 or more connections.
 - **When our application is using a Write Concern more durable than w: 1.**
@@ -25,9 +25,8 @@ Check all answers that apply:
 ## Error Handling
 
 Given a replica set with 5 nodes which write concern will cause an error when writing?
-Attempts Remaining:Correct Answer
 
-Choose the best answer:
+
 
 - **7**
 - 5
