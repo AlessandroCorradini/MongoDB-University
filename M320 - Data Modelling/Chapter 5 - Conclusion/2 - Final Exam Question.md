@@ -30,3 +30,4 @@ and round all results to 2 significant digits.
 - The peak write rate is 17,000 writes/second.
 - The average write rate is 17,000 writes/second.
 - The average write rate is 83,000 writes/second.
+- **The average write rate is 170,000 writes/second.**
