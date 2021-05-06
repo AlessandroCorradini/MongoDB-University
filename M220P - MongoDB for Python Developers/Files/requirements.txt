@@ -5,7 +5,7 @@ pymongo==3.7.2
 dnspython==1.15.0
 pytest==3.3.0
 pytest-flask==0.10.0
-Flask-Cors==3.0.3
+Flask-Cors==3.0.9
 flask-jwt-extended==3.7.0
 faker==0.8.13
 jupyter==1.0.0
